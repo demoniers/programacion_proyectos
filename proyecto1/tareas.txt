@@ -1,3 +1,0 @@
-13,10,Cumpleaños
-10,10,Planificacion
-15,10,Tarea
