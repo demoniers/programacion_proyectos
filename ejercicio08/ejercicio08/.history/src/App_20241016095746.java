@@ -4,6 +4,6 @@ public class App {
         Pedido pedido001 = new Pedido(001,"10-11-2024",camion);
         Producto caja = new Producto(01,"Caja de zapatos",5,pedido001,pedido001,pedido001);
 
-        System.out.printf("%s",caja);
+        System.out.printf("%s%n%n%s",caja,pedido001);
     }
 }
