@@ -1,6 +1,6 @@
 class Transporte {
-    int id_trasnporte;
-    String tipo;
+    private int id_trasnporte;
+    private String tipo;
 
     public Transporte(int id_trasnporte, String tipo) {
         this.id_trasnporte = id_trasnporte;

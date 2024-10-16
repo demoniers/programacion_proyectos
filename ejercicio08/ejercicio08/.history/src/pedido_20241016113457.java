@@ -1,12 +1,16 @@
 class Pedido {
-    int n_pedido;
-    String d_entrega;
-    Transporte tipo;
+    private int n_pedido;
+    private String d_entrega;
+    private Transporte tipo;
 
     public Pedido(int n_pedido, String d_entrega, Transporte tipo) {
         this.n_pedido = n_pedido;
         this.d_entrega = d_entrega;
         this.tipo = tipo;
+    }
+
+    public String toString() {
+        return n_pedido+d_entrega+tipo;
     }
     // GETTERS
 
