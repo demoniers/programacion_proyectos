@@ -1,1 +1,0 @@
- & 'C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\alumnofp\AppData\Roaming\Code\User\workspaceStorage\ab384962528e20fea73158b2868b229d\redhat.java\jdt_ws\jdt.ls-java-project\bin' 'App' 

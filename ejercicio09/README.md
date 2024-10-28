@@ -1,21 +1,3 @@
-
-# EJERCICIO 08
-
-## pasos
-1. Crear las CLASES
-2. hacer las realacciones 
-3. hacer que las calases varien.
-### CLASES
-1. producto (nombre)
-2. precio (precio)
-3. transporte (tipo)
-4. pedido (dd-mm-YYYY)
-#### relaccion
-producto -> precio\
-pedido -> producto -> transporte
-
-
-
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
