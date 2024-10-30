@@ -4,9 +4,9 @@ import java.util.ArrayList;
 public class App {
     public static void main(String[] args) {
         // Creacion de personas
-        Persona p1 = new Persona("anastasia", "fernandez", true);
-        Persona p2 = new Persona("Maria", "Agustula", false);
-        Persona p3 = new Persona("Ramon", "Ramos", true);
+        Moviles p1 = new Moviles("anastasia", "fernandez", 8);
+        Moviles p2 = new Moviles("Maria", "Agustula", 8);
+        Moviles p3 = new Moviles("Ramon", "Ramos", 8);
         
         // Creaccion de lista ListaPersonas
         List<Persona> listap = new ArrayList<>();
