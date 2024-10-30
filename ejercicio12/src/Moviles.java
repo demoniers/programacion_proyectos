@@ -18,7 +18,7 @@ class Moviles {
     }
 
     public String toString() {
-        return model+" "+brand;
+        return brand+" | "+model+"  "+ram+" GB";
     }
 
     
