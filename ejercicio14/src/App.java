@@ -28,11 +28,14 @@ public class App {
         while (i < nc) { 
             System.out.println("introduce el modelo \n SBC-");
             int suffix = scan.nextInt(); 
+            scan.nextLine();
             String model = "CBS-"+suffix;
 
-            System.out.println("introduce los caballos \n SBC-"+suffix+"\n caballos:");
-            int caballosn = scan.nextInt(); 
-            scan.nextLine();
+            // Generar un número entero aleatorio entre 50 y 500 
+            int min = 50; 
+            int max = 500; 
+            int caballosn = (int) (Math.random() * (max - min + 1) + min);
+
 
             System.out.println("introduce los caballos \n SBC-"+suffix+"\n caballos: "+caballosn+"\n color ");
             String color = scan.nextLine(); 
@@ -58,7 +61,7 @@ public class App {
             }
             // imprimo pregunta 
             System.out.println("Buscando un coche de color "+car.color()+"\n");
-            
+
             String h = hexa.toLowerCase(); // paso a minusculas el hexadecimal
             if (!h.equals("no hay")) { // cumprueblo si exite color 
                 System.out.println("El coche que buscae es el modelo "+car.model()+

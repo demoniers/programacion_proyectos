@@ -1,8 +1,10 @@
 # EJERCICIO 14
 
-coche con 
+coche con
+
 - id
 - modelo
 - caballos
+- color
 
-insertar id y modelo mediante while 
+insertar id y modelo mediante while
